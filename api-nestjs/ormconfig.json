@@ -1,0 +1,15 @@
+{
+    "name": "default",
+    "type": "mssql",
+    "host": "localhost",
+    "port": 1433,
+    "username": "sa",
+    "password": "Software1",
+    "database": "qualityVehicles",
+    "logging": false,
+    "options": {
+        "encrypt": false
+    },
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "migrations": ["dist/migrations/*{.js,.ts}"]
+}
